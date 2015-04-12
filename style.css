@@ -1,0 +1,108 @@
+/*Woo Choi*/
+
+table{
+  
+  border-collapse: collapse;
+
+  
+}
+
+tr, td, th{
+  
+  border: 3px double black;
+  
+}
+
+th{
+  
+  width: 120px;
+  font-style: italic;
+}
+
+tr { 
+  
+    text-align: center; 
+
+}
+
+
+
+tr+tr, tr+tr+tr+tr, tr+tr+tr+tr+tr+tr{
+  
+  background-color: lightgreen;
+  
+}
+
+tr+tr+tr, tr+tr+tr+tr+tr{
+  
+  background-color: lightblue;
+  
+}
+
+
+th,td{
+
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: lighter;
+
+  
+}
+
+
+
+th+th {
+  
+    font-style: normal;
+    font-weight: bold;
+    
+  
+}
+th+td { 
+  
+    color:red; 
+  
+}
+
+th+td+td+td{
+  
+    color: blue;
+  
+}
+
+dt:hover +dd{
+	background-color: purple;
+}
+
+div.outer-container{
+	background-color: pink;
+	width: 75%;
+	margin-top: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+
+div.inner-container{
+	background-color: blue;
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	
+}
+
+form{
+	
+	border: 3px double black;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+img{
+	width: 100px;
+	height: 125px;
+	float: left;
+
+
+}
