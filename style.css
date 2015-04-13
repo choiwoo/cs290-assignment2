@@ -26,21 +26,11 @@ tr {
 
 }
 
-tr:nth-child(1){
+tr:nth-child(odd){
 	background-color: lightgreen;
 }
-
-tr+tr, tr+tr+tr+tr, tr+tr+tr+tr+tr+tr{
-  
-  background-color: lightblue;
-  
-}
-
-tr+tr+tr, tr+tr+tr+tr+tr{
-  
-
-    background-color: lightgreen;
-  
+tr:nth-child(even){
+    background-color: lightblue;
 }
 
 thead tr th, tfoot tr td {
