@@ -23,20 +23,28 @@ tr {
   
     text-align: center; 
 
+
 }
 
-
+tr:nth-child(1){
+	background-color: lightgreen;
+}
 
 tr+tr, tr+tr+tr+tr, tr+tr+tr+tr+tr+tr{
   
-  background-color: lightgreen;
+  background-color: lightblue;
   
 }
 
 tr+tr+tr, tr+tr+tr+tr+tr{
   
-  background-color: lightblue;
+
+    background-color: lightgreen;
   
+}
+
+thead tr th, tfoot tr td {
+	background-color: white;
 }
 
 
